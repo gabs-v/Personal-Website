@@ -113,7 +113,7 @@ img{
   text-shadow: .10em .08em 0 white ;
   
 }
-p{
+.introAbout{
   display: inline-block;
   margin-top: 25px;
   color: rgb(249, 229, 229);
@@ -123,4 +123,12 @@ p{
 span{
   color: rgb(138, 67, 139);
   text-shadow: .10em .08em 0 rgb(230 97, 195)
+}
+
+.galary{
+  text-align: right;
+  max-width: 200px;
+  border: 10px solid rgb(212, 127, 112);
+  border-radius: 20%;
+  margin: 20px;
 }
