@@ -21,19 +21,20 @@
 .section2{
   background-color: rgb(206, 228, 246);
   border: 15px solid rgb(159, 204, 242);
-  height: 500px;
+  height: 700px;
   padding: 15px;
-  overflow-x: hidden; 
+  overflow-x: scroll; 
   overflow-y: scroll;
 }
 
 .section3{
   background-color: rgb(242, 184, 171);
   border: 15px solid  rgb(237, 145, 124);
-  height: 500px;
+  height: 400px;
   padding: 15px;
   overflow-x: hidden; 
-  overflow-y: scroll;
+  overflow-y: hidden;
+  
 }
 
 .section4{
@@ -99,7 +100,7 @@ a{
   background-size: 100% 100%;
 }
 
-img{
+.self{
   text-align: right;
   max-width: 400px;
   border: 10px solid rgb(212, 127, 112);
@@ -125,10 +126,74 @@ span{
   text-shadow: .10em .08em 0 rgb(230 97, 195)
 }
 
-.galary{
+.galarySection{
+  text-align: center;
+  width: 25%;
+}
+.allPictures{
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+.picture1 {
   text-align: right;
-  max-width: 200px;
-  border: 10px solid rgb(212, 127, 112);
+  max-width: 220px;
+  border: 10px solid rgb(130, 128, 237);
   border-radius: 20%;
+}
+.picture2 {
+  margin-top: 20%;
+  text-align: right;
+  max-width: 280px;
+  border: 10px solid rgb(158, 156, 231);
+  border-radius: 20%;
+}
+.picture3 {
+  text-align: right;
+  max-width: 220px;
+  border: 10px solid rgb(130, 128, 237);
+  border-radius: 20%;
+}
+.picture4 {
+  margin-top: 20%;
+  text-align: right;
+  max-width: 280px;
+  border: 10px solid rgb(158, 156, 231);
+  border-radius: 20%;
+}
+.sectionsHeader{
+  font-size: 40px;
+  color: rgb(20, 112, 188);
+  text-shadow: .10em .08em 0 rgb(223, 188, 239)
+  
+}
+.aboutMePar{
+  color: rgb(72, 10, 116);
+  text-shadow: .10em .08em 0 rgb(234, 221, 240);
+  letter-spacing: 1px;
   margin: 20px;
+  font-size: 1.2em;
+}
+.pictureDescription{
+  color: rgb(184, 125, 226);
+  text-shadow: .10em .08em 0 rgb(53, 12, 72);
+  font-size: 1.2em;
+}
+.icon{
+  height: 100px;
+}
+.iconSection{
+  text-align: center;
+  max-width: 150px;
+  
+}
+.iconsGroup{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.sectionsHeader2{
+  font-size: 40px;
+  color: rgb(247, 3, 129);
+  text-shadow: .10em .08em 0 #731f3c
 }

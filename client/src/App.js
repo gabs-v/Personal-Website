@@ -2,10 +2,7 @@ import './App.css';
 
 function App() {
   const navegationBar = [
-    {
-      id: 1,
-      title: "main"
-    },
+
     {
       id: 2,
       title: "about"
@@ -54,16 +51,16 @@ function App() {
               </p>
             </div>
             <div>
-              <img  src="Order_gaby.png" alt="MDN Logo"/>
+              <img className='self' src="Order_gaby.png" alt="MDN Logo"/>
             </div>
           </div>
 
 
           <div className='section2'>
-            <h2 className='sections-header'>
+            <h2 className='sectionsHeader'>
               About Me! 
             </h2>
-            <p>
+            <p className='aboutMePar'>
               You might be asking yourself, "Well who exactly is this Gaby chick?"
               Well allow me to introduce myself. <br/> I'm currently based in Las Vegas, Nevada
               and a recent graduate of the software development course at 
@@ -73,14 +70,71 @@ function App() {
               field but I am both determined and disciplined.<br/> Above all else, 
               I always offer my best and make an effort to keep growing my knowledge.
             </p>
-            <img className='galary' src="Order_gaby.png" alt="MDN Logo"/>
+
+            <p className='aboutMePar'> Among those things I'm also... </p>
+            <div className='allPictures'>
+              <div className='galarySection'> 
+                <img className='picture1' src="IMG_1772.JPG" alt="Cat mama Gaby"/>
+                <p className='pictureDescription'> a cat mama </p>
+              </div>
+              <div className='galarySection'> 
+                <img className='picture2' src="IMG_0229.JPEG" alt="Lotteria master Gaby"/>
+                <p className='pictureDescription'> a loteria MASTER </p>
+              </div>
+              <div className='galarySection'> 
+                <img className='picture3' src="IMG_5075.JPEG" alt="Gaby with cotton candy"/>
+                <p className='pictureDescription'> a cotton candy and all things sweet lover </p>
+              </div>
+              <div className='galarySection'> 
+                <img className='picture4' src="IMG_3127.JPG" alt="Childish Gaby"/>
+                <p className='pictureDescription'> a child at heart </p>
+              </div>
+            </div>
           </div>
 
 
           <div className='section3'>
-            <h2 className='sections-header' id='skills'>
+            <h2 className='sectionsHeader2' id='skills'>
               Skills!
             </h2>
+
+            <div className='iconsGroup'>
+              <div className='iconSection'>
+                <img src='icons8-html-5-50.png' alt='react symbol' className='icon' />
+                <p>HTML</p>
+              </div>
+              <div className='iconSection'>
+                <img src='icons8-css3-50.png' alt='react symbol' className='icon' />
+                <p>CSS</p>
+              </div>
+              <div className='iconSection'>
+                <img src='icons8-javascript-50.png' alt='react symbol' className='icon' />
+                <p>JavaScript</p>
+              </div>
+              <div className='iconSection'>
+                <img src='icons8-json-50.png' alt='react symbol' className='icon' />
+                <p>JSON</p>
+              </div>
+            </div>
+            
+            <div className='iconsGroup'>
+              <div className='iconSection'>
+                  <img src='icons8-react-50.png' alt='react symbol' className='icon' />                  <p>React</p>
+              </div>
+              <div className='iconSection'>
+                <img src='icons8-nodejs-50.png' alt='react symbol' className='icon' />
+                <p>Node.js</p>
+              </div>
+
+              <div className='iconSection'>
+                <img src='icons8-mysql-logo-50.png' alt='react symbol' className='icon' />
+                <p>MySQL</p>
+              </div>
+              <div className='iconSection'>
+                <img src='icons8-python-50.png' alt='react symbol' className='icon' />
+                <p>Python</p>
+              </div>
+            </div>
           </div>
 
 
